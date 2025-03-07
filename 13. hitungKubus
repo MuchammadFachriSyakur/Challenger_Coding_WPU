@@ -1,0 +1,7 @@
+function getSize(width, height, depth) {
+        return [
+          width * height * depth,
+          2 * (width * height + width * depth + height * depth),
+        ];
+}
+console.log(getSize(4, 2, 6));
